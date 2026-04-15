@@ -12,9 +12,6 @@ Es wurden 20 Datensätze angezeigt.
 
  Aufgabe 2
 
-Inhalt:
-SELECT * FROM Movies;
-
 Befehl:
 docker run --rm -v $(pwd)/script.sql:/script.sql -e SQL_FILE=/script.sql bsalgert/postgres:v1 > p01_ausgabe.log
 
@@ -57,9 +54,8 @@ Die Tabelle Movies wurde angezeigt.
  Aufgabe 5 
 
 Befehle:
-docker stop mydb
-docker ps
-docker start mydb
+docker stop mydb - container stoppen
+docker ps        - status überprüfen 
 
 Ergebnis:
 Der Container wurde gestoppt.
