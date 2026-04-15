@@ -44,8 +44,6 @@ docker exec -it mydb bash
 psql --help
 psql -U postgres -d postgres
 
-SQL:
-SELECT * FROM Movies;
 
 Ergebnis:
 Die Verbindung zur PostgreSQL-Datenbank wurde erfolgreich hergestellt.
