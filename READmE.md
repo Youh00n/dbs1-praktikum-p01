@@ -47,6 +47,9 @@ psql -U postgres -d postgres
 
 Ergebnis:
 psql (18.0 (Debian 18.0-1.pgdg13+3))
+Type "help" for help.
+
+postgres=#
 Die Verbindung zur PostgreSQL-Datenbank wurde erfolgreich hergestellt.
 Die Tabelle Movies wurde angezeigt.
 
