@@ -1,6 +1,6 @@
 
 
-## Aufgabe 1
+ Aufgabe 1
 
 Befehl:
 docker run -it --rm bsalgert/postgres:v1
@@ -10,7 +10,7 @@ Die Abfrage wurde erfolgreich ausgeführt.
 Es wurden 20 Datensätze angezeigt.
 
 
-## Aufgabe 2
+ Aufgabe 2
 
 Inhalt:
 SELECT * FROM Movies;
@@ -24,7 +24,7 @@ Die Ausgabe wurde in der Datei p01_ausgabe.log gespeichert.
 Es wurden 20 Datensätze angezeigt.
 
 
-## Aufgabe 3 
+ Aufgabe 3 
 
 Befehl:
 docker run -d --name mydb bsalgert/postgres:v1 /demon.sh
@@ -40,7 +40,7 @@ Der Container wurde im Hintergrund gestartet.
 Mit docker ps wurde überprüft, dass der Container läuft.
 Der Container mit dem Namen "mydb" wird angezeigt.
 
-## Aufgabe 4 
+ Aufgabe 4 
 
 Befehle:
 docker exec -it mydb bash
@@ -54,7 +54,7 @@ Ergebnis:
 Die Verbindung zur PostgreSQL-Datenbank wurde erfolgreich hergestellt.
 Die Tabelle Movies wurde angezeigt.
 
-## Aufgabe 5 
+ Aufgabe 5 
 
 Befehle:
 docker stop mydb
