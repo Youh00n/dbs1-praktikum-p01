@@ -13,3 +13,5 @@ cb4b34fb53fa   bsalgert/postgres:v1   "docker-entrypoint.s…"   42 seconds ago 
 Der Container wurde im Hintergrund gestartet.
 Mit docker ps wurde überprüft, dass der Container läuft.
 Der Container mydb wurde angezeigt.
+
+## Aufgabe 4 
