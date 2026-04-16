@@ -5,6 +5,8 @@
 Befehl:
 docker run -it --rm bsalgert/postgres:v1
 
+\q
+
 Ergebnis:
 wurde erfolgreich ausgeführt.
 Es wurden 20 Datensätze angezeigt.
