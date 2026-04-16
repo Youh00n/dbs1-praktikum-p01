@@ -3,7 +3,8 @@
  Aufgabe 1
 
 Befehl:
-docker run -it --rm bsalgert/postgres:v1
+docker run -it --rm bsalgert/postgres:v1 
+\q
 
 Ergebnis:
 wurde erfolgreich ausgeführt.
